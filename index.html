@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Home | The Pet Company</title>
+</head>
+
+<body>
+
+    <!-- Encabezado del sitio -->
+    <header>
+        <!-- Nav bar boostrap -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-color">
+            <div class="container">
+                <a href="#"><img class="logo-img" src="../medios/logo2.png" alt="Logo de la tienda de mascotas"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Banner principal -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./medios/banner-home.png" class="d-block w-100" alt="Promo 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Descuentos en alimento para perros</h1>
+                        <h2>Obtené hasta un 20%.</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./medios/banner-home.png" class="d-block w-100" alt="Promo 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Descuentos en alimento para perros</h1>
+                        <h2>Obtené hasta un 20%.</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./medios/banner-home.png" class="d-block w-100" alt="Promo 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Descuentos en alimento para perros</h1>
+                        <h2>Obtené hasta un 20%.</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Secciones destacas -->
+        <section>
+            <div class="h2-secciones-destacadas">
+                <h2>Productos destacados</h2>
+            </div>
+            <div class="secciones-destacadas">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-perro-1.png" class="card-img-top"
+                        alt="Eukanuba para perros senior">
+                    <div class="card-body">
+                        <h5 class="card-title">Eukanuba</h5>
+                        <p class="card-text">Perros senior - 15 Kg</p>
+                        <h4>Precio: $5000</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-para-gato.png" class="card-img-top"
+                        alt="Royal Canin para gatos">
+                    <div class="card-body">
+                        <h5 class="card-title">Royal Canin</h5>
+                        <p class="card-text">Gatos adultos - 10 Kg</p>
+                        <h4>Precio: $4500</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-perro.png" class="card-img-top"
+                        alt="Eukanuba para perros adultos">
+                    <div class="card-body">
+                        <h5 class="card-title">Eukanuba</h5>
+                        <p class="card-text">Perros adulotos - 15 Kg</p>
+                        <h4>Precio: $5500</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-perro-12.png" class="card-img-top"
+                        alt="Eukanuba para perros senior">
+                    <div class="card-body">
+                        <h5 class="card-title">Eukanuba</h5>
+                        <p class="card-text">Perros adultos - 25 Kg</p>
+                        <h4>Precio: $7500</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Secciones destacas - Descuentos -->
+        <section>
+            <div class="h2-secciones-destacadas">
+                <h2>Productos con descuentos</h2>
+            </div>
+            <div class="secciones-destacadas">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-perro-1.png" class="card-img-top"
+                        alt="Eukanuba para perros senior">
+                    <div class="card-body">
+                        <h5 class="card-title">Eukanuba</h5>
+                        <div>
+                            <span class="position-absolut top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                                20% OFF
+                                <span class="visually-hidden">unread messages</span>
+                        </div>
+                        <p class="card-text">Perros senior - 15 Kg</p>
+                        <h4>Precio: $5000</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-para-gato.png" class="card-img-top"
+                        alt="Royal Canin para gatos">
+                    <div class="card-body">
+                        <h5 class="card-title">Royal Canin</h5>
+                        <div>
+                            <span class="position-absolut top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                                25% OFF
+                                <span class="visually-hidden">unread messages</span>
+                        </div>
+                        <p class="card-text">Gatos adultos - 10 Kg</p>
+                        <h4>Precio: $4500</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-perro.png" class="card-img-top"
+                        alt="Eukanuba para perros adultos">
+                    <div class="card-body">
+                        <h5 class="card-title">Eukanuba</h5>
+                        <div>
+                            <span class="position-absolut top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                                50% OFF
+                                <span class="visually-hidden">unread messages</span>
+                        </div>
+                        <p class="card-text">Perros adulotos - 15 Kg</p>
+                        <h4>Precio: $5500</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="img-destacadas" src="./medios/bolsa-de-comida-perro-12.png" class="card-img-top"
+                        alt="Eukanuba para perros senior">
+                    <div class="card-body">
+                        <h5 class="card-title">Eukanuba</h5>
+                        <div>
+                            <span class="position-absolut top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                                25% OFF
+                                <span class="visually-hidden">unread messages</span>
+                        </div>
+                        <p class="card-text">Perros adultos - 25 Kg</p>
+                        <h4>Precio: $7500</h4>
+                        <div class="boton-destacadas">
+                            <input class="button button:hover" type="submit" value="Agregar al carrito">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Multimedia -->
+        <section class="cotenedor-muiltimedia">
+            <div>
+                <h2 class="titulo-video">Adiestramiento canino</h2>
+            </div>
+            <section class="multimedia">
+                <div>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube-nocookie.com/embed/8wBhhjC_N7Y?si=-HpTIrNHoMDYf1Ho"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <p class="parrafo-video">Aprende a entrenar a tu perro con nuestros videos tutoriales.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur inventore enim ratione
+                        perferendis
+                        nisi, omnis mollitia vel provident, accusantium delectus cupiditate placeat ex, veritatis
+                        consequuntur
+                        illum neque magnam est id?
+                        Quisquam, cumque. Doloribus, voluptates. Quos, asperiores. Doloribus, voluptates. Quos,
+                        asperiores.
+                        Doloribus, voluptates. Quos, asperiores. Doloribus, voluptates.
+                        Quos, asperiores. Doloribus, voluptates. Quos, asperiores. Doloribus, voluptates. Quos,
+                        asperiores.
+                        Doloribus, voluptates. Quos, asperiores. Doloribus, voluptates.
+                        Quos, asperiores. Doloribus, voluptates. Quos, asperiores. Doloribus, voluptates.
+                        Quos, asperiores. Doloribus, voluptates. Quos, asperiores. Doloribus, voluptates. Quos,
+                        asperiores.
+                        Doloribus, voluptates.
+                        Quos, asperiores. Doloribus, voluptates. Quos, asperiores
+                    </p>
+                </div>
+
+            </section>
+        </section>
+
+        <!-- Multimedia con grid 
+        <section class="contenedor-grid">
+            <h2 class="titulo-video titulo">Adiestramiento canino</h2>
+            <iframe class="video" width="1280" height="720"
+                src="https://www.youtube-nocookie.com/embed/8wBhhjC_N7Y?si=-HpTIrNHoMDYf1Ho"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <iframe class="video1" width="560" height="315"
+                src="https://www.youtube.com/embed/xluNhJ09YFA?si=uFcR0Dc7LpCXjAml" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/Ew-KDQjEbUg?si=lK71uY5OGktjDMTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <p class="parrafo-video texto">Aprende a entrenar a tu perro con nuestros videos tutoriales.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur inventore enim ratione
+                perferendis nisi, omnis mollitia vel provident, accusantium delectus cupiditate placeat ex, veritatis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur inventore enim ratione
+                perferendis nisi, omnis mollitia vel provident, accusantium delectus cupiditate placeat ex, veritatis 
+            </p>
+
+        </section> -->
+
+        <!-- Blog -->
+        <section class="contenedor-blog">
+            <div class="titulo-blog">
+                <h2>Blog</h2>
+                <p>Consejos y noticias sobre el cuidado de tus mascotas.</p>
+            </div>
+            <section class="blog">
+                <div>
+                    <img class="img-destacadas" src="./medios/perro.png" alt="Blog de perros">
+                    <p>Cómo cuidar la salud dental de tu mascota. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Minima in necessitatibus, quas excepturi suscipit eos? Dolore nulla neque quasi ea perspiciatis
+                        eos
+                        corporis in nemo. Saepe corrupti porro consectetur beatae!
+                    </p>
+                    <p>Fecha: 16 de junio de 2025</p>
+                    <input class="button-secondary button-secondary:hover" type="submit" value="Leer la nota completa">
+                </div>
+                <div>
+                    <img class="img-destacadas" src="./medios/gato1.jpg" alt="Blog de gatos">
+                    <p>Cómo cuidar el estado emocional de tu gato. Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit.
+                        Consectetur asperiores dolorem fuga quia quidem minima sunt velit voluptas. Similique ipsam
+                        voluptate, at harum consectetur vero facilis mollitia! Qui, ea expedita!
+                    </p>
+                    <p>Fecha: 20 de junio de 2025</p>
+                    <input class="button-secondary button-secondary:hover" type="submit" value="Leer la nota completa">
+                </div>
+                <div>
+                    <img class="img-destacadas" src="./medios/pug-blog.png" alt="Blog de adiestramiento">
+                    <p>Cómo cuidar el estado emocional de tu gato. Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit.
+                        Consectetur asperiores dolorem fuga quia quidem minima sunt velit voluptas. Similique ipsam
+                        voluptate, at harum consectetur vero facilis mollitia! Qui, ea expedita!
+                    </p>
+                    <p>Fecha: 20 de junio de 2025</p>
+                    <input class="button-secondary button-secondary:hover" type="submit" value="Leer la nota completa">
+                </div>
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+
+            <!-- Redes sociales -->
+            <section">
+                <div>
+                    <p>Seguínos en nuestras redes sociales:</p>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/ThePetCompany">
+                        <img src="./medios/logo-facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/ThePetCompany">
+                        <img src="./medios/logo-instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.twitter.com/ThePetCompany">
+                        <img src="./medios/logo-twitter.png" alt="Twitter">
+                    </a>
+                </div>
+                </section>
+
+                <!-- Derechos de autor -->
+                <section class="footer-derechos">
+                    <p>The Pet Company © Todos los derechos reservados 2025.</p>
+                </section>
+
+        </footer>
+
+        <!-- Scripts de Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
