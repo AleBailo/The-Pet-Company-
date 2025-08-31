@@ -50,7 +50,7 @@ p {
 }
 
 /* Main */
-/* Estilos del Banner principal */
+/* Estilos del Banner Principal */
 
 .banner {
     text-align: left;
@@ -64,7 +64,7 @@ p {
     margin-bottom: 60px;
 }
 
-/* Secciones destacadas con flex box */
+/* Secciones destacadas con flexbox */
 .h2-secciones-destacadas {
     text-align: center;
     color: #303030;
@@ -89,7 +89,7 @@ p {
 
 
 .img-destacadas {
-    width: 400px;
+    width: 95%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -153,7 +153,7 @@ p {
 
 
 
-/* Blog con flex box*/
+/* Blog con flexbox*/
 
 .contenedor-blog {
     background-color: #D8D2C2;
