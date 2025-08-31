@@ -1,0 +1,30 @@
+/* Links a partials */
+
+@use "./generales/botones" as *;
+@use "./generales/textos" as *;
+@use "./generales/headeryfooter" as *;
+@use "./pages/index" as *;
+@use "./pages/productos" as *;
+@use "./pages/contacto" as *;
+@use "./responsive/mediaq" as *;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FAF7F0;
+    color: #4A4947;
+    margin: 20px;
+    padding: 40px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}

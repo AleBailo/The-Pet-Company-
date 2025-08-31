@@ -1,0 +1,11 @@
+/* Links a partials */
+
+@use "./generales/generales";
+@use "./generales/botones";
+@use "./generales/textos";
+@use "./generales/headeryfooter";
+@use "./pages/index";
+@use "./pages/productos";
+@use "./pages/contacto";
+@use "./responsive/mediaq";
+
