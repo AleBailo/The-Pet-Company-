@@ -7,3 +7,169 @@
 @use "./pages/index" as *;
 @use "./pages/productos" as *;
 @use "./pages/contacto" as *;
+
+@media (max-width: 480px) {
+
+    /* Index ------------- */
+
+    .banner {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Secciones destacadas */
+
+    .h2-secciones-destacadas {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .secciones-destacadas {
+        flex-direction: column;
+        padding: 20px;
+
+        .img-destacadas {
+            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* Multimedia */
+
+    .titulo-video {
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 0;
+        font-size: 24px;
+    }
+
+    .multimedia {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        .video {
+            width: 100%;
+            height: auto;
+        }
+
+        .parrafo-video {
+            display: none;
+        }
+    }
+
+    /* Blog */
+
+    .titulo-blog {
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0;
+        font-size: 24px;
+    }
+
+    .blog {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    /* Tipografias ------------- */
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .h1-internal {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    /* Productos ------------- */
+
+    .categorias {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+
+        .contenido-categorias {
+            align-items: center;
+            text-align: center;
+
+            .img-categorias {
+                width: 100%;
+                height: auto
+            }
+        }
+    }
+
+    /* Contacto ------------- */
+
+    /* Forms con flex box */
+
+    .formulario {
+        width: 100%;
+
+        .selector {
+            width: 80%;
+        }
+    }
+
+    /* Ubicación con flex box */
+
+    .titulo-ubicacion {
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0;
+
+        .mapa-sucursales {
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    /* Componentes ------------- */
+
+    /* Botones */
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-secondary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-third {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .boton-destacadas {
+        width: 100%;
+    }
+
+}

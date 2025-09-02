@@ -7,3 +7,97 @@
 @use "./pages/index" as *;
 @use "./pages/productos" as *;
 @use "./responsive/mediaq" as *;
+
+/* Forms con flex box */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 60px;
+
+    label {
+        font-size: 16px;
+        font-weight: medium;
+        font-style: italic;
+        padding: 10px;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #FAF7F0;
+        border: #303030;
+        border-bottom: 2px solid #303030;
+
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #FAF7F0;
+        border: #303030;
+        border: 2px solid #303030;
+        font-size: 16px;
+        font-weight: medium;
+        font-style: italic;
+        color: #4A4947;
+
+    }
+
+    .checkbox-line {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        justify-items: left;
+        gap: 1px;
+    }
+
+    .selector {
+        width: 30%;
+        padding: 10px;
+        margin-bottom: 60px;
+        background-color: #FAF7F0;
+        border: #303030;
+        border-bottom: 2px solid #303030;
+        font-size: 16px;
+        font-weight: medium;
+        font-style: italic;
+        color: #4A4947;
+    }
+
+}
+
+/* Ubicación con flex box */
+
+.contenedor-ubicacion {
+    background-color: #D8D2C2;
+
+    .titulo-ubicacion {
+        background-color: #D8D2C2;
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 40px;
+
+        .mapa-sucursales {
+            background-color: #D8D2C2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: left;
+            width: 100%;
+            padding: 40px;
+            padding-bottom: 80px;
+        }
+
+    }
+
+}
