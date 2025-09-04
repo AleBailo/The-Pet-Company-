@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/AleBailo/The-Pet-Company-#readme",
   "devDependencies": {
-    "sass": "^1.77.0"
+    "sass": "^1.92.0"
   },
   "dependencies": {
     "braces": "^3.0.3",
