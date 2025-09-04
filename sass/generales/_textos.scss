@@ -1,12 +1,12 @@
 /* Links a partials */
 
-@use "./generales/generales" as *;
-@use "./generales/botones" as *;
-@use "./generales/headeryfooter" as *;
-@use "./pages/index" as *;
-@use "./pages/productos" as *;
-@use "./pages/contacto" as *;
-@use "./responsive/mediaq" as *;
+@use "./generales/generales" as*;
+@use "./generales/botones" as*;
+@use "./generales/headeryfooter" as*;
+@use "./pages/index" as*;
+@use "./pages/productos" as*;
+@use "./pages/contacto" as*;
+@use "./responsive/mediaq" as*;
 
 /* Tipografías ---------------------------------------------------- */
 h1 {
@@ -43,16 +43,16 @@ p {
     padding-top: 80px;
     padding-bottom: 10px;
     margin-bottom: 40px;
-    border: #303030;
-    border-bottom: 2px solid #303030;
+    border: $negro;
+    border-bottom: 2px solid $negro;
 }
 
 .h2-secciones-destacadas {
     text-align: center;
-    color: #303030;
+    color: $negro;
     padding-top: 80px;
     padding-left: 40px;
     padding-bottom: 40px;
-    border: #303030;
-    border-bottom: 2px solid #303030;
+    border: $negro;
+    border-bottom: 2px solid $negro;
 }

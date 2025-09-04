@@ -1,12 +1,12 @@
 /* Links a partials */
 
-@use "./generales/generales" as *;
-@use "./generales/botones" as *;
-@use "./generales/textos" as *;
-@use "./generales/headeryfooter" as *;
-@use "./pages/productos" as *;
-@use "./pages/contacto" as *;
-@use "./responsive/mediaq" as *;
+@use "./generales/generales" as*;
+@use "./generales/botones" as*;
+@use "./generales/textos" as*;
+@use "./generales/headeryfooter" as*;
+@use "./pages/productos" as*;
+@use "./pages/contacto" as*;
+@use "./responsive/mediaq" as*;
 
 /* Banner */
 
@@ -18,15 +18,15 @@
     background-repeat: no-repeat;
     height: 100vh;
     padding: 40px;
-    color: #ffffff;
+    color: $blanco;
     margin-bottom: 60px;
 }
 
 /* Secciones destacadas */
 
 .secciones-destacadas {
-    background-color: #FBFEF9;
-    color: #303030;
+    background-color: $beige-claro;
+    color: $negro;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +37,7 @@
 
     .card {
         width: fit-content;
-        background-color: #FAF7F0;
+        background-color: $beige;
         border: none;
         border-radius: 0px;
         margin: 10px;
@@ -63,16 +63,16 @@
 /* Multimedia */
 
 .cotenedor-muiltimedia {
-    background-color: #4A4947;
+    background-color: $gris;
     padding: 40px;
     margin-bottom: 0px;
 
     .titulo-video {
-        color: #FAF7F0;
+        color: $beige;
         text-align: left;
         padding-top: 60px;
         padding-left: 20px;
-        background-color: #4A4947
+        background-color: $gris
     }
 
     .multimedia {
@@ -84,7 +84,7 @@
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 60px;
-        background-color: #4A4947;
+        background-color: $gris;
 
         .video {
             width: 560px;
@@ -94,7 +94,7 @@
 
         .parrafo-video {
             padding: 20px;
-            color: #FBFEF9;
+            color: $beige-claro;
         }
     }
 }
@@ -102,19 +102,19 @@
 /* Blog */
 
 .contenedor-blog {
-    background-color: #D8D2C2;
+    background-color: $beige-oscuro;
     padding-bottom: 0px;
     margin-bottom: 00px;
 
     .titulo-blog {
-        background-color: #D8D2C2;
+        background-color: $beige-oscuro;
         text-align: left;
         padding-top: 40px;
         padding-left: 40px;
     }
 
     .blog {
-        background-color: #D8D2C2;
+        background-color: $beige-oscuro;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;

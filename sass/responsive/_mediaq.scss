@@ -1,12 +1,12 @@
 /* Links a partials */
 
-@use "./generales/generales" as *;
-@use "./generales/botones" as *;
-@use "./generales/textos" as *;
-@use "./generales/headeryfooter" as *;
-@use "./pages/index" as *;
-@use "./pages/productos" as *;
-@use "./pages/contacto" as *;
+@use "./generales/generales" as*;
+@use "./generales/botones" as*;
+@use "./generales/textos" as*;
+@use "./generales/headeryfooter" as*;
+@use "./pages/index" as*;
+@use "./pages/productos" as*;
+@use "./pages/contacto" as*;
 
 @media (max-width: 480px) {
 

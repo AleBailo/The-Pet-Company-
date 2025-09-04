@@ -1,12 +1,12 @@
 /* Links a partials */
 
-@use "./generales/generales" as *;
-@use "./generales/botones" as *;
-@use "./generales/textos" as *;
-@use "./generales/headeryfooter" as *;
-@use "./pages/index" as *;
-@use "./pages/productos" as *;
-@use "./responsive/mediaq" as *;
+@use "./generales/generales" as*;
+@use "./generales/botones" as*;
+@use "./generales/textos" as*;
+@use "./generales/headeryfooter" as*;
+@use "./pages/index" as*;
+@use "./pages/productos" as*;
+@use "./responsive/mediaq" as*;
 
 /* Forms con flex box */
 
@@ -32,9 +32,9 @@
         width: 100%;
         padding: 10px;
         margin-bottom: 20px;
-        background-color: #FAF7F0;
-        border: #303030;
-        border-bottom: 2px solid #303030;
+        background-color: $beige;
+        border: $negro;
+        border-bottom: 2px solid $negro;
 
     }
 
@@ -43,13 +43,13 @@
         height: 150px;
         padding: 10px;
         margin-bottom: 20px;
-        background-color: #FAF7F0;
-        border: #303030;
-        border: 2px solid #303030;
+        background-color: $beige;
+        border: $negro;
+        border: 2px solid $negro;
         font-size: 16px;
         font-weight: medium;
         font-style: italic;
-        color: #4A4947;
+        color: $gris;
 
     }
 
@@ -65,13 +65,13 @@
         width: 30%;
         padding: 10px;
         margin-bottom: 60px;
-        background-color: #FAF7F0;
-        border: #303030;
-        border-bottom: 2px solid #303030;
+        background-color: $beige;
+        border: $negro;
+        border-bottom: 2px solid $negro;
         font-size: 16px;
         font-weight: medium;
         font-style: italic;
-        color: #4A4947;
+        color: $gris;
     }
 
 }
@@ -79,16 +79,16 @@
 /* Ubicación con flex box */
 
 .contenedor-ubicacion {
-    background-color: #D8D2C2;
+    background-color: $gris-claro;
 
     .titulo-ubicacion {
-        background-color: #D8D2C2;
+        background-color: $gris-claro;
         text-align: left;
         padding-top: 40px;
         padding-left: 40px;
 
         .mapa-sucursales {
-            background-color: #D8D2C2;
+            background-color: $gris-claro;
             display: flex;
             flex-direction: column;
             justify-content: space-around;

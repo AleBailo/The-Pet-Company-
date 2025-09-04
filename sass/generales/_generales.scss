@@ -1,12 +1,24 @@
 /* Links a partials */
 
-@use "./generales/botones" as *;
-@use "./generales/textos" as *;
-@use "./generales/headeryfooter" as *;
-@use "./pages/index" as *;
-@use "./pages/productos" as *;
-@use "./pages/contacto" as *;
-@use "./responsive/mediaq" as *;
+@use "./generales/botones" as*;
+@use "./generales/textos" as*;
+@use "./generales/headeryfooter" as*;
+@use "./pages/index" as*;
+@use "./pages/productos" as*;
+@use "./pages/contacto" as*;
+@use "./responsive/mediaq" as*;
+
+/* Variables --------- */
+/* Colores */
+$negro: #303030;
+$blanco: #ffffff;
+$beige: #FAF7F0;
+$beige-claro: #FBFEF9;
+$beige-oscuro: #D8D2C2;
+$marron: #B17457;
+$marron-oscuro: #8C5A43;
+$gris: #4A4947;
+$gris-claro: #D8D2C2;
 
 
 
@@ -18,8 +30,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #FAF7F0;
-    color: #4A4947;
+    background-color: $beige;
+    color: $gris;
     margin: 20px;
     padding: 40px;
 }
