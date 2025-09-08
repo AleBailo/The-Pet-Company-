@@ -99,9 +99,8 @@
 /* Blog */
 
 .contenedor-blog {
+    @extend .cotenedor-muiltimedia;
     background-color: $beige-oscuro;
-    padding-bottom: 0px;
-    margin-bottom: 00px;
 
     .titulo-blog {
         background-color: $beige-oscuro;

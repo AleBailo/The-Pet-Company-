@@ -6,7 +6,6 @@
 @use "../responsive/mediaq" as*;
 
 /* Sección de categorías */
-
 .categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
