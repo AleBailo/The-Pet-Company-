@@ -1,0 +1,207 @@
+/* Links a partials */
+
+@use "../pages/home" as*;
+@use "../pages/productos" as*;
+@use "../pages/contacto" as*;
+@use "../responsive/mediaq" as*;
+
+/* Variables --------- */
+/* Colores */
+$negro: #303030;
+$blanco: #ffffff;
+$beige: #FAF7F0;
+$beige-claro: #FBFEF9;
+$beige-oscuro: #D8D2C2;
+$marron: #B17457;
+$marron-oscuro: #8C5A43;
+$gris: #4A4947;
+$gris-claro: #D8D2C2;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: $beige;
+    color: $gris;
+    margin: 20px;
+    padding: 40px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Botones */
+/* Botones con flex box */
+.button {
+    background-color: $marron;
+    color: $beige;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    :hover {
+        background-color: $marron-oscuro;
+        padding: 10px 20px;
+    }
+}
+
+.button-secondary {
+    background: none;
+    border: 2px solid $negro;
+    color: $negro;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+
+    :hover {
+        border: $negro;
+        border-bottom: 2px solid $negro;
+        padding: 10px 20px;
+    }
+}
+
+.button-third {
+    background: none;
+    border: none;
+    border-bottom: none;
+    color: $beige;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+    width: auto;
+
+    :hover {
+        background: none;
+        border: none;
+        border-bottom: 2px solid $beige;
+        color: $beige;
+        display: inline-block;
+        padding: 10px 0 10px 0;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: left;
+        width: auto;
+    }
+}
+
+/* Tipografías ---------------------------------------------------- */
+h1 {
+    font-family: "Baskervville", serif;
+    font-weight: medium;
+    font-size: 50px;
+    text-align: left;
+}
+
+h2 {
+    font-family: "Baskervville", serif;
+    font-weight: normal;
+    font-size: 32px;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: "Baskervville", serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+.h1-internal {
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border: $negro;
+    border-bottom: 2px solid $negro;
+}
+
+.h2-secciones-destacadas {
+    text-align: center;
+    color: $negro;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border: $negro;
+    border-bottom: 2px solid $negro;
+}
+
+/* Navbar */
+
+.bg-color {
+    background-color: $beige !important;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: inherit;
+        align-items: left;
+        justify-content: space-around;
+    }
+
+    .logo-img {
+        width: 130px;
+        height: auto;
+    }
+
+    .active {
+        color: $gris;
+        border-bottom: 2px solid $gris;
+    }
+
+    .nav-link:hover {
+        color: $gris;
+        border-bottom: 2px solid $gris;
+    }
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $gris;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: $beige;
+
+    footer img {
+        margin: 10px;
+        width: 20px;
+    }
+
+    .footer-derechos {
+        margin-top: 20px;
+        font-size: 8px;
+        color: $beige;
+    }
+
+}
