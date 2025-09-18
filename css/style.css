@@ -178,6 +178,13 @@ p {
     padding: 40px;
 }
 
+.blog img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 /* Tipografías ---------------------------------------------------- */
 
@@ -306,14 +313,6 @@ textarea {
     font-style: italic;
     color: #4A4947;
 
-}
-
-.checkbox-line {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    justify-items: left;
-    gap: 1px;
 }
 
 .selector {
@@ -449,11 +448,11 @@ footer img {
 
 /* Responsive ---------------------------------------------------- */
 
-/* Mobile ------------------------------------------ */
+/* Mobile medianos a grandes ------------------------------------------ */
 
 /* Index */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     .banner {
         height: auto;
@@ -508,7 +507,7 @@ footer img {
     }
 
     /* Blog */
-    
+
     .titulo-blog {
         text-align: center;
         padding-top: 20px;
@@ -589,6 +588,174 @@ footer img {
         width: 100%;
     }
 
+    /* Componentes ---------------------------------------------------- */
+
+    /* Botones */
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-secondary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-third {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .boton-destacadas {
+        width: 100%;
+    }
+
+}
+
+
+/* Tablet en vertical y horizontal ------------------------------------------ */
+
+/* Index */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+    .banner {
+        height: auto;
+        text-align: center;
+        padding: 30px;
+
+    }
+
+    /* Secciones destacadas */
+
+    .h2-secciones-destacadas {
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .secciones-destacadas {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .img-destacadas {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Multimedia */
+
+    .multimedia {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+    }
+
+    .parrafo-video {
+        display: none;
+    }
+
+    .titulo-video {
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 0;
+        font-size: 28px;
+    }
+
+    /* Blog */
+
+    .titulo-blog {
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+        font-size: 28px;
+    }
+
+    .blog {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    /* Tipografías */
+
+    h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .h1-internal {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-size: 32px;
+    }
+
+    /* Categorías */
+
+    .categorias {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .contenido-categorias {
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-categorias {
+        width: 100%;
+        height: auto
+    }
+
+    /* Contacto */
+
+    .formulario {
+        width: 100%;
+    }
+
+    .selector {
+        width: 50%;
+    }
+
+    /* Ubicación */
+
+    .titulo-ubicacion {
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+    .mapa-sucursales {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
 
     /* Componentes ---------------------------------------------------- */
 

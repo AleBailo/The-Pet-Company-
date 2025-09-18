@@ -5,7 +5,9 @@
 @use "../pages/productos" as*;
 @use "../pages/contacto" as*;
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+
+    /* Mobile medianos a grandes ------------------------------------------ */
 
     /* Index ------------- */
 
@@ -145,6 +147,7 @@
         }
     }
 
+
     /* Componentes ------------- */
 
     /* Botones */
@@ -170,3 +173,17 @@
     }
 
 }
+
+/* Tablet en vertical y horizontal ------------------------------------------ */
+
+/* Index */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+
+
+
+
+    
+ }
