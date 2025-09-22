@@ -1,0 +1,325 @@
+/* Variables --------- */
+/* Colores */
+$negro: #303030;
+$blanco: #ffffff;
+$beige: #FAF7F0;
+$beige-claro: #FBFEF9;
+$beige-oscuro: #D8D2C2;
+$marron: #B17457;
+$marron-oscuro: #8C5A43;
+$gris: #4A4947;
+$gris-claro: #D8D2C2;
+
+@media (max-width: 768px) {
+
+    /* Banner */
+    .banner {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Secciones destacadas */
+    .h2-secciones-destacadas {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .secciones-destacadas {
+        flex-direction: column;
+        padding: 20px;
+
+        .img-destacadas {
+            width: 90%;
+            margin: 10px 0;
+        }
+    }
+
+    /* Multimedia */
+    .contenedor-multimedia {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        .titulo-video {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+
+        .multimedia {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 10px;
+            margin: 20px 0;
+
+            .video {
+                width: 100%;
+                height: auto;
+            }
+
+            .parrafo-video {
+                display: none;
+                color: $blanco;
+                max-width: 500px;
+            }
+        }
+    }
+
+    /* Blog */
+    .contenedor-blog {
+        padding: 20px;
+
+        .titulo-blog {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+
+        .blog {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+
+            >div {
+                width: 100%;
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+                max-width: 350px;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    /* Tipografías */
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .h1-internal {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    /* Productos */
+    .categorias {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+
+        .contenido-categorias {
+            align-items: center;
+            text-align: center;
+
+            .img-categorias {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    /* Contacto */
+    .formulario {
+        width: 100%;
+
+        .selector {
+            width: 80%;
+        }
+    }
+
+    .titulo-ubicacion {
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0;
+
+        .mapa-sucursales {
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    /* Botones */
+    .button,
+    .button-secondary,
+    .button-third,
+    .boton-destacadas {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Index */
+    .banner {
+        height: auto;
+        text-align: center;
+        padding: 30px;
+    }
+
+    /* Secciones destacadas */
+    .h2-secciones-destacadas {
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .secciones-destacadas {
+        flex-direction: column;
+        padding: 30px;
+
+        .img-destacadas {
+            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* Multimedia */
+    .contenedor-multimedia {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        .multimedia {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            .video {
+                width: 100%;
+                height: auto;
+            }
+
+            .parrafo-video {
+                display: none;
+            }
+        }
+    }
+
+    /* Blog */
+    .contenedor-blog {
+        .blog {
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+
+    /* Tipografias */
+    h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .h1-internal {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-size: 32px;
+    }
+
+    /* Productos */
+    .categorias {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 30px;
+
+        .contenido-categorias {
+            align-items: center;
+            text-align: center;
+
+            .img-categorias {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    /* Contacto */
+    .formulario {
+        width: 100%;
+
+        .selector {
+            width: 50%;
+        }
+    }
+
+    .titulo-ubicacion {
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+
+        .mapa-sucursales {
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    /* Botones */
+    .button,
+    .button-secondary,
+    .button-third,
+    .boton-destacadas {
+        width: 100%;
+        text-align: center;
+    }
+
+}

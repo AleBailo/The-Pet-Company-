@@ -1,7 +1,7 @@
 /* Links a partials */
+@use "./generales/componentes" as *;
+@use "./pages/home.scss";
+@use "./pages/contacto.scss";
+@use "./pages/productos.scss";
+@use "./pages/mediaq.scss";
 
-@use "./generales/componentes";
-@use "./pages/home";
-@use "./pages/productos";
-@use "./pages/contacto";
-@use "./responsive/mediaq";
